@@ -1,4 +1,3 @@
-import palindrome from './palindrome/palindrome';
+import fizzBuzz from './fizzBuzz/fizzBuzz';
 
-console.log(palindrome('Some string'));
-
+fizzBuzz(100);
