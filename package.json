@@ -1,0 +1,26 @@
+{
+  "name": "internship_tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "eslintIgnore": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "Medukha",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "typescript": "^4.3.5"
+  }
+}
