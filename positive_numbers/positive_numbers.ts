@@ -1,4 +1,4 @@
-const sumOfPositiveNum = (arr: number[]) => {
+const sumOfPositiveNums = (arr: number[]) => {
   const positiveArr = arr.filter((item) => item >= 0);
   let sum = 0;
 
@@ -9,4 +9,4 @@ const sumOfPositiveNum = (arr: number[]) => {
   return sum;
 };
 
-export default sumOfPositiveNum;
+export default sumOfPositiveNums;
