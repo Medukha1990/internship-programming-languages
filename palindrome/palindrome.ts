@@ -1,7 +1,5 @@
 const palindrome = (str: string) => {
-  const reverseStr = str.split('')
-    .reverse()
-    .join('');
+  const reverseStr = str.split('').reverse().join('');
 
   return reverseStr === str;
 };
